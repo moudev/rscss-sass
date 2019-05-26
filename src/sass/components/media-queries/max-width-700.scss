@@ -1,0 +1,100 @@
+@media only screen and (max-width: 700px) {
+  
+  .events-container {   
+    > .fullcalendar {
+      padding: 15px 0px 15px 0px;
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .header-section {
+    > .title {
+      font-size: 2rem;
+    }    
+  }
+  
+  .event-row {
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+    
+    > .action {
+      top: 40px;
+    }
+  }
+
+  .date-resume {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 25px 0px;
+    border-box: box-sizing;
+
+    > .day {
+      font-size: 1.8rem;
+      margin: 0px 5px 0px 15px;
+    }
+
+    > .month {
+      margin: 0px;
+      padding-top: 4px;
+      align-self: flex-end;
+    }
+  }
+
+
+  .event-details {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 20px 40px;
+    line-height: 1.6rem;
+
+    .separator {
+      border: 0px;
+    }
+
+    > .title {
+      padding: 0px;
+      width: 100%;
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    
+    > .description {
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+      width: 100%
+    }
+  }
+
+  .date-detail {
+    padding: 0px;
+    width: 100%;
+    justify-content: center;
+
+    > .icon {
+      margin: 0px;
+      padding: 0px;
+      flex-grow: 0;
+      font-size: 0.9rem;
+    }
+  }
+
+  .datetime-detail {
+    flex-grow: 0;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0px;
+
+    > .day {
+      margin: 0px 5px;
+    }
+  }
+
+}

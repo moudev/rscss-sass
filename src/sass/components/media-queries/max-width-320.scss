@@ -1,0 +1,25 @@
+@media only screen and (max-width: 320px) {
+ 
+  .header-section {
+    > .title {
+      font-size: 1.2rem;
+    }
+  }
+
+  .event-details {
+    padding: 20px 10px;
+  }
+
+  .date-detail {
+    > .icon {
+      align-self: flex-end;
+      padding-bottom: 5px;
+    }
+  }
+
+  .datetime-detail {
+    flex-wrap: wrap;
+    width: 70%;
+  }
+  
+}

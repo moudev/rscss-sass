@@ -1,0 +1,18 @@
+@media only screen and (max-width: 480px) {
+
+  .header-section {
+    > .title {
+      font-size: 1.4rem;
+      margin: 30px 0px;
+    }
+
+    > .icon {
+      font-size:1.7rem;
+    }
+  }
+  
+  .event-details {
+    padding: 20px 10px;
+  }
+
+}

@@ -1,0 +1,64 @@
+.event-details {
+  display: flex;
+  border: 2px solid #3257a7ff;
+  height: 100%;
+
+  margin-left: 20px;
+  width: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  padding: 10px 0px;
+  > .title { 
+    font-size:1.2rem;
+    width: 35%;
+    margin: 0px;
+    padding: 10px 20px 10px 0px;
+    font-weight: normal;
+
+    @extend ._center-ver;
+    width: 35%;
+    padding: 0px 20px 0px 30px;
+  }
+  
+  > .description {
+    @extend ._center-ver;
+    width: 35%;
+    padding: 0px 20px 0px 30px;
+  }
+
+  .separator {
+    height: 50%;
+    border: 1px solid #3257a7ff;
+    top: 25%;
+    position: relative;
+  }
+}
+
+.date-detail {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  padding: 0px 20px 0px 30px;
+  > .icon {
+    @extend ._center-ver;
+    flex-grow: 1;
+    font-size: 1.5rem;
+  }
+}
+
+.datetime-detail {
+  @extend ._center-ver;
+  flex-grow: 4;
+  padding-left: 15px;
+
+  > .day {
+    margin: 0px;
+  }
+  
+  > .time {
+    margin: 0px;
+    font-weight: bold;
+  }
+}
